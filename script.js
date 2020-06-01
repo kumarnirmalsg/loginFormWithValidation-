@@ -38,7 +38,7 @@ function checkRequired(inputArray)
     });
 }
 
-//adding event listener
+//adding event listener in the 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     checkRequired([username,email,password,password2])
